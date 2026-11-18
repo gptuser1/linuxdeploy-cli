@@ -2,7 +2,7 @@
 # Linux Deploy Component
 # (c) Anton Skshidlevsky <meefik@gmail.com>, GPLv3
 
-[ -n "${SUITE}" ] || SUITE="xenial"
+[ -n "${SUITE}" ] || SUITE="jammy"
 
 if [ -z "${ARCH}" ]
 then
